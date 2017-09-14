@@ -1,0 +1,54 @@
+body {
+  background: #000066;
+}
+
+a {
+  text-decoration: none;
+  color: #c4bae7;
+}
+
+a:hover {
+  color: #ffc8e2;
+}
+
+.faketerminal {
+  color: white;
+  background: black;
+  height, width: 90%;
+  position: relative;
+  font-family: "Courier New", courier, monospace;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70%;
+  width: 70%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  display: table;
+}
+
+.faketerminal__body {
+  margin: 2%;
+}
+
+.faketerminal__input {
+  margin: 0 2%;
+  position: absolute;
+  bottom: 0px;
+  width: 95%;
+  min-height: 2em;
+  height: auto;
+  border-top: 1px solid grey;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+textarea {
+  font-family: inherit;
+  height: 1.1em;
+  width: 100%;
+  background: inherit;
+  color: white;
+  border: none;
+  resize: none;
+  autocorrect: none;
+}
